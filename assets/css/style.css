@@ -1,0 +1,139 @@
+body {
+  
+    
+}
+
+
+.header {
+    height: 65px;
+    background: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+h1 {
+    float: left;
+    width: 230px;
+    height: 65px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border: none;
+    margin: 0;
+    margin-top:0;
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    
+}
+
+
+h2 {
+    clear: both;
+    overflow: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+hr { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #cccccc;
+    background: #cccccc;
+} 
+
+
+#about,
+#portfolio,
+#contact {
+    clear: left;
+    overflow: auto;
+    float: right;
+    
+}
+
+
+.contentbox1 {
+    clear: right;
+    background-image: url("../images/bananas.png") ;
+    border-top: 2px solid #dddddd;
+    margin: auto;
+    
+    
+ }
+
+
+ .contentbox2 {
+    width: 960px;
+    padding: 35px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #cccccc; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+    background: #ffffff;
+    
+}
+
+#about,
+#portfolio {
+    border-right: 1px solid #cccccc;
+    padding-right: 20px;
+}
+
+#contact,
+#portfolio {
+    margin-left: -20px;
+}
+
+
+p {
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+
+}
+
+
+img {
+    float: left;
+    padding: 20px;
+    width: 220px;
+    height: 250px;
+}
+
+
+#footer{
+    clear: both;
+    background: #666666;
+    height: 55px;
+    margin: auto;
+    width: 960px;
+}
+
+
+
+.footercontent {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
