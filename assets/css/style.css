@@ -1,14 +1,24 @@
+* {
+   padding-left: 0;
+   padding-right: 0; 
+
+}
+
+
 body {
-  
+   
+   /* width: 960px;
+    margin: auto; */
     
 }
 
 
-.header {
+header {
     height: 65px;
     background: #ffffff;
     margin-top: 0;
     margin-bottom: 0;
+    
     
 }
 
@@ -26,14 +36,13 @@ h1 {
     margin-top:0;
     text-align: center;
     padding-top: 20px;
-    position: fixed;
+    position: absolute;
     
 }
 
 
 h2 {
     clear: both;
-    overflow: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-size: 30px;
@@ -47,36 +56,43 @@ hr {
     border-width: 1.5px;
     border-color: #cccccc;
     background: #cccccc;
+    
 } 
 
 
 #about,
 #portfolio,
 #contact {
-    clear: left;
-    overflow: auto;
     float: right;
     
 }
 
 
-.contentbox1 {
+#container {
     clear: right;
-    background-image: url("../images/bananas.png") ;
-    border-top: 2px solid #dddddd;
-    margin: auto;
-    
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    position: relative
     
  }
 
+ html {
+    background-image: url("../images/bananas.png") ;
+ }
 
- .contentbox2 {
+
+ #main {
+    overflow: auto;
     width: 960px;
-    padding: 35px;
-    margin: 0 auto;
-    margin-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 55px;
+    margin-left: auto;
+    margin-right: auto;
     background: #ffffff;
     border: 1px solid #dddddd;
+    position: relative;  
 
 }
 
@@ -120,14 +136,14 @@ img {
 }
 
 
-#footer{
-    clear: both;
-    background: #666666;
-    height: 55px;
-    margin: auto;
-    width: 960px;
+#footer {
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        height:55px;
+        width:100%;
+        background: #666666;
 }
-
 
 
 .footercontent {
