@@ -179,16 +179,22 @@ img {
  }
  
 .caption {
+    clear: both;
     position: absolute;
+    top: 65%;
+    right: 50%;
+    transform: translate(-50%, -50%);
 }
 
 span { 
     color: white; 
-    font-size: 18px;
+    font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     background: #4aaaa5;
-    padding: 10px; 
+    padding: 2px; 
     text-align: center;
  }
+
+
 
 
