@@ -118,7 +118,6 @@ a {
 
 #about,
 #portfolio {
-    /*border-right: 1px solid #cccccc;*/
     padding-right: 40px;
    
 }
@@ -139,10 +138,10 @@ p {
 
 img {
     float: left;
-    padding: 5px;
+    padding: 8px;
     padding-right: 20px;
-    width: 225px;
-    height: 265px; 
+    width: 180px;
+    height: 220px; 
 }
 
 
@@ -173,7 +172,8 @@ img {
 .img-4,
 .img-5 { 
     position: relative; 
-    width: 424px;
+    width: 250px;
+    height: 200px;
     float: left;
    
  }
@@ -181,8 +181,8 @@ img {
 .caption {
     clear: both;
     position: absolute;
-    top: 65%;
-    right: 50%;
+    top: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
